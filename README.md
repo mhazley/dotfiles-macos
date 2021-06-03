@@ -15,7 +15,7 @@ Close and reopen terminal to complete `oh-my-zsh` install.
 
 Clone this repo.
 
-    git clone https://github.com/mhazley/dotfiles-raspbian.git ~/.dotfiles
+    git clone https://github.com/mhazley/dotfiles-macos.git ~/.dotfiles
 
 Run `setup.sh` to complete the setup.
 
