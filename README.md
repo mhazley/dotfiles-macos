@@ -13,6 +13,10 @@ Close and reopen terminal to complete `oh-my-zsh` install.
 
 *NOTE: The rest of the setup process assumes you are using zsh and not bash.*
 
+Install Homebrew
+
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 Clone this repo.
 
     git clone https://github.com/mhazley/dotfiles-macos.git ~/.dotfiles

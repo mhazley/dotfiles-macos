@@ -1,9 +1,7 @@
 #!/bin/zsh
 
-echo Installing Homebrew...
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 echo Updating Homebrew...
+chmod +x ./homebrew.sh
 ./homebrew.sh
 
 ln -nfs ~/.dotfiles/gitignore ~/.gitignore_global
