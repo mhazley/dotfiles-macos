@@ -5,9 +5,9 @@ Verify that `zsh` is installed.
     which zsh
     #=> /usr/bin/zsh
 
-Install [`oh-my-zsh`].
+Install `oh-my-zsh`.
 
-    curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 Close and reopen terminal to complete `oh-my-zsh` install.
 
