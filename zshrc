@@ -1,7 +1,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export UPDATE_ZSH_DAYS=7
 
-ZSH_THEME="mhazley"
+ZSH_THEME="spaceship"
 ZSH_CUSTOM=$HOME/.dotfiles/oh-my-zsh/custom
 COMPLETION_WAITING_DOTS="true"
 
