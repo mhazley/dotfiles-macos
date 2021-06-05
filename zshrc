@@ -5,7 +5,7 @@ ZSH_THEME="spaceship"
 ZSH_CUSTOM=$HOME/.dotfiles/oh-my-zsh/custom
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git)
+plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 source $ZSH_CUSTOM/aliases
