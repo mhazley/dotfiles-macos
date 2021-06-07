@@ -20,5 +20,6 @@ CASKS=(
 miniconda
 spectacle
 docker
+spotify
 )
 brew install --cask ${CASKS[@]}
